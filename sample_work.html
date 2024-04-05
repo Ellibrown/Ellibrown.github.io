@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Work</title>
+    <link rel="icon" type="image/x-icon" href="assets/fav-icon.png">
+    <link rel="stylesheet" href="sample_work.css" />
+</head>
+<body>
+<nav>
+    <a href="./index.html">home</a>
+    <a href="./interests_influences.html">interests & influences</a>
+    <a href="#">sample work</a>
+</nav>
+<main>
+    <div class="grid-container">
+        <div class="sidebar">
+            <img
+                    src="./assets/namesidebar.png"
+                    alt="The name 'Elliana Brown' in a bold font"
+                    height="650"
+            >
+        </div>
+        <div class="content">
+            <p>
+                I am currently working on a project that investigates the relationship between walkable urban design
+                and community well-being. My project compares a large dataset of walkability scores of cities with another dataset
+                of happiness scores of cities to see if there is a relationship between the two factors. <br> <br>
+                This has been my research methodology for this project:
+            </p>
+            <ol id="steps">
+                <li>Define project goals and hypotheses</li>
+                <li>Gather and evaluate data sources</li>
+                <li>Clean data</li>
+                <li>Data analysis and visualization</li>
+                <li>Report and communicate findings</li>
+                <li>Reflect on starting goals and hypotheses</li>
+            </ol>
+            <p>Here is a sample of some of the data I have used in this project:</p>
+            <table>
+                <tr>
+                    <th>City</th>
+                    <th>Walkability Score</th>
+                    <th>Happiness Score</th>
+                </tr>
+                <tr>
+                    <td>Mexico City</td>
+                    <td>0.18/1.0</td>
+                    <td>6.69/10</td>
+                </tr>
+                <tr>
+                    <td>Helsinki</td>
+                    <td>0.851/1.0</td>
+                    <td>7.83/10</td>
+                </tr>
+            </table>
+            <p>
+                I sourced the happiness index scores from the <a href="https://worldhappiness.report/ed/2020/cities-and-happiness-a-global-ranking-and-analysis/">World Happiness Report</a>
+                and the walkability scores from <a href="https://www.itdp.org/publication/walkability-tool/">Pedestrians First</a>. <br> <br>
+                My preexisting interest in this research subject was very much increased and refined by the online creator Not Just Bikes.<br>
+                Click on the image to check out his YouTube page: <br>
+                <a href="https://www.youtube.com/c/NotJustBikes">
+                    <img src="./assets/notjustbikes.jpeg" alt="Not Just Bikes logo" style="width:50px;height:50px;">
+                </a> <br>
+                Here is a short example video of his:<br>
+                <video width="180" height="320" controls>
+                    <source src="./assets/notjustbikesvideo.mp4" type="video/mp4">
+                </video> <br>
+                Here is a podcast of his:<br>
+                <audio controls>
+                    <source src="./assets/notjustbikesaudio.mp3" type="audio/mpeg">
+                </audio>
+            </p>
+            <form id="researchSuggestionForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="123-456-7890">
+            
+                <label for="researchTopic">Research Topic Suggestion:</label>
+                <input type="text" id="researchTopic" name="researchTopic" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="sourceLink">Link to Source for Research Topic Suggestion:</label>
+                <input type="url" id="sourceLink" name="sourceLink" required>
+            
+                <label for="sourceFile">File Upload for Source:</label>
+                <input type="file" id="sourceFile" name="sourceFile" required>
+            
+                <label for="additionalInfo">Additional Information:</label>
+                <textarea id="additionalInfo" name="additionalInfo" rows="4" cols="50" required></textarea>
+            
+                <button type="submit">Submit</button>
+            </form> 
+        </div>
+</main>
+<footer>
+    <p>
+        Contact me: ellibrownxx@gmail.com
+    </p>
+</footer>
+</body>
+</html>
